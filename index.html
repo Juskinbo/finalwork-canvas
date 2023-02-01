@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小猪佩奇上学记</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="images/icon.jpg" />
+</head>
+
+<body>
+    <div id="box">
+        <canvas width="800px" height="600px" id="myCanvas"><img src="images/welcomebg.jpg" alt=""></canvas>
+        <input id="ans" type="text" value="" style="border:2px solid groove;position:absolute;left:300px;top:300px; width: 200px;height: 30px;display:
+            none;" placeholder="请在此处输入你的答案">
+        <audio src="music/music.flac" id="music"></audio>
+        <video src="images/show.mp4" id="show" hidden></video>
+        <video src="images/gags.mp4" id="gags" hidden></video>
+        <button id="btn1"
+            style="position:absolute;left:280px;top:400px;width: 80px;height: 40px;display: none;">检查</button>
+        <button id="btn2"
+            style="position:absolute;left:460px;top:400px;width: 80px;height: 40px;display: none;">下一题</button>
+        <button id="btn3"
+            style="position:absolute;left:360px;top:400px;width: 80px;height: 40px;display: none;">开始</button>
+        <button id="btn4"
+            style="position:absolute;left:280px;top:400px;width: 80px;height: 40px;display: none;">再来一次</button>
+        <button id="btn5"
+            style="position:absolute;left:460px;top:400px;width: 80px;height: 40px;display: none;">不踢了</button>
+        <button id="btn6" style="display: none;"></button>
+        <button id="btn7"
+            style="position:absolute;left:718px;top:556px;width: 80px;height: 40px;display: none;">退出</button>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/classroom.js"></script>
+    <script src="js/playground.js"></script>
+    <script src="js/theater.js"></script>
+    <script src="js/back.js"></script>
+    <script src="js/ending.js"></script>
+</body>
+
+</html>
